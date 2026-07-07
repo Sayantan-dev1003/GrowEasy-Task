@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { FileText, Database, ArrowRight } from 'lucide-react';
 
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:4000';
+
 interface ImportJob {
   id: string;
   filename: string;
@@ -21,7 +23,7 @@ export function RecentImports() {
   useEffect(() => {
     const fetchImports = async () => {
       try {
-        const res = await fetch('http://localhost:4000/api/imports');
+        const res = await fetch(`${BACKEND_URL}/api/imports`);
         if (res.ok) {
           const data = await res.json();
           setImports(data.imports || []);
