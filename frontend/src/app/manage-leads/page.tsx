@@ -5,6 +5,8 @@ import { useSearchParams } from 'next/navigation';
 import { DarkModeToggle } from '@/components/DarkModeToggle';
 import { Search, RefreshCw, ChevronRight } from 'lucide-react';
 
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:4000';
+
 interface Lead {
   id: string;
   name: string | null;
@@ -45,8 +47,8 @@ function ManageLeadsContent() {
       setIsLoading(true);
       const searchParam = currentSearch ? `?search=${encodeURIComponent(currentSearch)}` : '';
       const url = importId 
-        ? `http://localhost:4000/api/imports/${importId}/leads${searchParam}`
-        : `http://localhost:4000/api/leads${searchParam}`;
+        ? `${BACKEND_URL}/api/imports/${importId}/leads${searchParam}`
+        : `${BACKEND_URL}/api/leads${searchParam}`;
       const res = await fetch(url);
       if (res.ok) {
         const data = await res.json();
@@ -55,7 +57,7 @@ function ManageLeadsContent() {
       
       if (importId) {
         // Fetch stats
-        const statsRes = await fetch(`http://localhost:4000/api/imports/${importId}`);
+        const statsRes = await fetch(`${BACKEND_URL}/api/imports/${importId}`);
         if (statsRes.ok) {
           const statsData = await statsRes.json();
           setImportJob(statsData.importJob);
@@ -63,7 +65,7 @@ function ManageLeadsContent() {
         
         // Fetch skipped if tab is skipped
         if (activeTab === 'skipped') {
-          const skipRes = await fetch(`http://localhost:4000/api/imports/${importId}/skipped`);
+          const skipRes = await fetch(`${BACKEND_URL}/api/imports/${importId}/skipped`);
           if (skipRes.ok) {
             const skipData = await skipRes.json();
             setSkippedRows(skipData.skippedRows || []);
