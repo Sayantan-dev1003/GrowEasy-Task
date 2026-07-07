@@ -67,9 +67,9 @@ Our robust architecture leverages a decoupled frontend/backend paradigm, streami
 
 ---
 
-## 🤖 AI Provider: Google Gemini 1.5 Flash
+## 🤖 AI Provider: Google Gemini 2.5 Flash
 
-**Why Gemini 1.5 Flash?**
+**Why Gemini 2.5 Flash?**
 - **1M Token Context Window**: Provides vast headroom for extremely detailed system prompting alongside massive data batches.
 - **High-Speed Inference**: Guarantees ultra-low latency chunk processing, ensuring the SSE streaming UX feels instantaneous.
 - **JSON-Enforced Output**: Strict adherence to `application/json` response parameters forces completely valid JSON output.
@@ -87,7 +87,7 @@ Our robust architecture leverages a decoupled frontend/backend paradigm, streami
 ### 1. Repository Setup
 
 ```bash
-git clone https://github.com/your-username/groweasy-csv-importer
+git clone https://github.com/Sayantan-dev1003/GrowEasy-Task
 cd groweasy-csv-importer
 ```
 
