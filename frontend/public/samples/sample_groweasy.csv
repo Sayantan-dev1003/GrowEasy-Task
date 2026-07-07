@@ -1,0 +1,6 @@
+created_at,name,email,country_code,mobile_without_country_code,company,city,state,country,lead_owner,crm_status,crm_note,data_source,possession_time,description
+2026-06-15T09:30:00.000Z,Rahul Sharma,rahul.sharma@gmail.com,+91,9876543210,TechSoft Pvt Ltd,Bangalore,Karnataka,India,Priya Nair,GOOD_LEAD_FOLLOW_UP,Interested in 2BHK. Budget 80L. Call back on weekends.,leads_on_demand,Ready to move,Looking for property near Sarjapur Road
+2026-06-16T11:00:00.000Z,Anita Patel,anita.patel@outlook.com,+91,9123456789,Infosys Ltd,Pune,Maharashtra,India,Arjun Kumar,DID_NOT_CONNECT,Called twice. No answer.,eden_park,Dec 2026,Software engineer looking for investment property
+2026-06-17T14:45:00.000Z,Mohammed Ali,mohammed.ali@company.in,+91,9988776655,,Hyderabad,Telangana,India,Priya Nair,GOOD_LEAD_FOLLOW_UP,Wants 3BHK. Already visited site.,meridian_tower,Q1 2027,Referred by existing customer
+2026-06-18T10:15:00.000Z,Deepa Krishnan,deepa.k@yahoo.com,+91,8765432109,Wipro,Chennai,Tamil Nadu,India,Rohit Sharma,SALE_DONE,Booking done. Token amount received.,sarjapur_plots,Ready to move,Villa plot purchase
+2026-06-19T16:30:00.000Z,Vikram Singh,vikram.singh@hotmail.com,+91,7654321098,,Delhi,Delhi,India,Arjun Kumar,BAD_LEAD,Wrong number. Not a genuine lead.,,,"Not interested, please remove from list"

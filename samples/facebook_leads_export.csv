@@ -1,0 +1,8 @@
+id,created_time,full_name,email,phone_number,city,platform,ad_name,form_id,campaign_name
+abc123,2026-06-01 10:23:45,Arun Menon,arun.menon@gmail.com,+91 9871234560,Bangalore,Facebook,3BHK Launch Campaign,form_abc001,Summer Property Sale 2026
+def456,2026-06-02 14:15:22,Sunita Verma,sunita.verma@yahoo.com,9823456789,Mumbai,Instagram,Ready to Move Homes,form_abc002,Summer Property Sale 2026
+ghi789,2026-06-03 09:45:00,Kiran Rao,,+91-9934567890,Hyderabad,Facebook,Luxury Apartments Ad,form_abc001,Premium Leads Q2
+jkl012,2026-06-04 16:30:11,Pooja Desai,pooja.desai@outlook.com,9745678901,Pune,Facebook,Budget Homes,form_abc003,Summer Property Sale 2026
+mno345,2026-06-05 11:20:55,Rajesh Iyer,rajesh.iyer@company.com,+91 9656789012,Chennai,Instagram,South India Campaign,form_abc002,South Zone Expansion
+pqr678,2026-06-06 08:00:00,Nisha Kapoor,nisha.k@gmail.com,,Delhi,Facebook,Delhi NCR Leads,form_abc003,North Zone Q2
+stu901,2026-06-07 13:45:33,Amit Joshi,amit.joshi@rediffmail.com,9567890123,Kolkata,Facebook,East India Push,form_abc001,East Zone Launch
